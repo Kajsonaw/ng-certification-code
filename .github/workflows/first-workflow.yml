@@ -10,8 +10,6 @@ jobs:
           uses: actions/setup-node@v1
           with: 
               node-version: 20
-        - name: install dependencies
-          run: npm install
         - name: test application
           run: npm test
       
