@@ -11,5 +11,5 @@ jobs:
           with: 
               node-version: 20
         - name: test application
-          run: npm test
+          run: npm run ng test
       
